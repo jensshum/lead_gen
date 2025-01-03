@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Target, Filter, Zap } from 'lucide-react';
+import compyImage from "../../../src/assets/compy.png";
 
 export const Solution = () => (
   <div className="py-16">
@@ -51,9 +52,9 @@ export const Solution = () => (
           viewport={{ once: true }}
           className="relative aspect-video rounded-xl"
         >
-          {/* Image placeholder */}
+          {/* Image with proper import */}
           <div className="absolute inset-0 bg-white-100 flex items-center justify-center">
-            <img src="../../../src/assets/compy.png" alt="compy"/>
+            <img src={compyImage} alt="compy"/>
           </div>
         </motion.div>
       </div>
