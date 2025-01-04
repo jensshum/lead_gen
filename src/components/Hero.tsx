@@ -29,11 +29,11 @@ export const Hero = () => {
             <span className="text-primary">In Less Time.</span>
           </h1>
           <p className="text-xl text-text-secondary mb-8 max-w-3xl mx-auto">
-            Find businesses actively looking to establish their online presence. We identify and connect you with qualified leads who need your web development expertise.
+            Tired of wasting time begging businesses to let you make them a website? Find businesses INSTANTLY who NEED your website making skills, and close more deals!
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
             <div className="bg-white/50 backdrop-blur-sm rounded-lg p-4">
-              <p className="font-semibold text-primary-dark">Manual Search?</p>
+              <p className="font-semibold text-primary-dark">Hundreds of hours searching?</p>
               <p className="text-text-secondary">Find leads automatically</p>
             </div>
             <div className="bg-white/50 backdrop-blur-sm rounded-lg p-4">
@@ -41,7 +41,7 @@ export const Hero = () => {
               <p className="text-text-secondary">No more racing to the bottom</p>
             </div>
             <div className="bg-white/50 backdrop-blur-sm rounded-lg p-4">
-              <p className="font-semibold text-primary-dark">Tire Kickers?</p>
+              <p className="font-semibold text-primary-dark">Cold calls?</p>
               <p className="text-text-secondary">Only pre-qualified prospects</p>
             </div>
           </div>
