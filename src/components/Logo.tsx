@@ -1,4 +1,4 @@
-import logoImage from "../../src/assets/LeadGenSuper (1).png";
+import logoImage from "../../src/assets/LeadGenSuper (2) (1).png";
 
 export const Logo = () => (
   <div className="flex items-center justify-center">
